@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo $USER $HOME
-echo -n $USER$HOME | wc -c
+count=$(echo -n $USER$HOME |wc -c)
+echo  $USER $HOME $count
