@@ -8,7 +8,7 @@ echo "five random args"
 bash "$1" $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM
 
 echo
-echo "\foo\" \"bar\" \"foobar\" \"foo bar\""
+echo "\"foo\" \"bar\" \"foobar\" \"foo bar\""
 bash "$1" "foo" "bar" "foobar" "foo bar"
 
 echo
